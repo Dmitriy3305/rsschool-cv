@@ -15,7 +15,9 @@ At the moment, I am working in  the innovation department, where I am organizing
 * CSS3
 * GIT
 * JS(basic)
+
 ## Code Example ##
+
 ```
 function addElement(event) {
   if (event.target.classList.contains("box")) {
@@ -31,10 +33,10 @@ function addElement(event) {
   }
 ```
 ## Education: ##
-### Higher education: ###
+* ### Higher education: ###
 Samara State University of Railway Transport 
 
-### Additional courses: ###
+* ### Additional courses: ###
 JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)
 
 ## English: ##
