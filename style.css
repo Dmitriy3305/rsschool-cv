@@ -17,6 +17,7 @@ body {
     background: linear-gradient(#9595d5, #452153);
     background-repeat: no-repeat;
     color: var(--primary-color);
+    margin: 0 auto;
 }
 .header-container {
     display: flex;
