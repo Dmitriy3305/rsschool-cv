@@ -18,11 +18,19 @@ body {
     background-repeat: no-repeat;
     color: var(--primary-color);
     margin: 0 auto;
+    font-size: 24px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 32px;
 }
 .header-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-size: 20px;
 }
 
 .nav-list {
@@ -54,9 +62,6 @@ body {
 }
 .contacts {
     margin-top: 20px;
-}
-h1, h2 {
-    margin: 0;
 }
 .name-work {
     display: flex;
