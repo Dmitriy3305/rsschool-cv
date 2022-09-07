@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color:#452153;
+}
+
+html {
+    margin: 0;
+    padding: 0 auto;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(#9595d5, #452153);
+    background-repeat: no-repeat;
+    color: var(--primary-color);
+    margin: 0 auto;
+    font-size: 22px;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    list-style: none;
+    padding-right: 20px;
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+} 
+.photo {
+    width: 30%;
+    height: 30%;
+    border-radius: 100px;
+}
+.avatar {
+    display: flex;
+}
+.avatar-name-work{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contacts {
+    margin-top: 20px;
+}
+.name-work {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+.line {
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.location {
+    display: flex;
+}
+.discord {
+    display: flex;
+}
+.email {
+    display: flex;
+}
+.github {
+    display: flex;
+}
+.contacts-discription {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.discription-text {
+    padding-left: 10px;
+}
+.education-discription {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skills-discription {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.projects-discription {
+    display: flex;
+    justify-content: space-around;
+}
+code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    color: var(--primary-color);
+}
+.data {
+    display: flex;
+}
+.data-footer {
+    font-size: 20px;
+    padding-right: 20px;
+}
+.link {
+    text-decoration: none;
+}
+ul, li {
+    list-style: none;
+}
